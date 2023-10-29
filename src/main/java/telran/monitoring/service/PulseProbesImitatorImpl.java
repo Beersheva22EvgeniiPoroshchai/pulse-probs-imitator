@@ -2,24 +2,10 @@ package telran.monitoring.service;
 
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
-
-import javax.swing.text.ChangedCharSetException;
-
-import org.bouncycastle.oer.its.ieee1609dot2.basetypes.ThreeDLocation;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
 import lombok.extern.slf4j.Slf4j;
 import telran.monitoring.dto.PulseProbe;
-
-//app.probes.imitator.value.min=40
-//app.probes.imitator.value.max=220
-//app.probes.imitator.jump.prob=10
-//app.probes.imitator.jump.multiplier=0.4
-//app.probes.imitator.nojump.max.multiplier=0.05
-//app.probes.imitator.jump.increase.prob=70
-//app.probes.imitator.patients.amount=11
-
 
 @Service
 @Slf4j
